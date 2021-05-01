@@ -1,0 +1,219 @@
+building_type,dwelling_type,period_built,inferred_floor_area_m2,inferred_ber,energy_kwh_per_m2_year,inferred_fossil_fuel_mwh_per_year,inferred_electricity_mwh_per_year,inferred_energy_mwh_per_year,SMALL_AREA_2011,COUNTYNAME,ID,Property Use,Benchmark,Industrial,estimated_fossil_fuel_mwh_per_year,estimated_electricity_mwh_per_year,latitude,longitude,address,metered_fossil_fuel_mwh_per_year,metered_electricity_mwh_per_year
+industrial,,,250,,,30422602.38,0,30422602.38,,Dublin 11,2168461,GENERATING STATION,Engineering,1,59.985,36.765,53.41282056,-6.325132102,"Huntstown Power station , Finglas, Dublin 11",30422602.38,0
+industrial,,,190,,,6535679.745,5475843.533,12011523.28,,Dublin 4,2171082,GENERATING STATION,Engineering,1,45.5886,27.9414,53.33981489,-6.205546408,"Pigeon House Road, Dublin 4",6535679.745,5475843.533
+industrial,,,250,,,2778244.103,0,2778244.103,,Dublin 11,2197531,GENERATING STATION,Engineering,1,59.985,36.765,53.41282056,-6.325132102,"Huntstown, Finglas, Dublin 11",2778244.103,0
+data_centre,,,,,,0,1856563.712,1856563.712,,Dublin 22,,DATA CENTRE,Data Centre,,,,53.31706,-6.45599,Grange Castle,,
+industrial,,,190,,,1519877.785,17759,1537636.785,,Dublin 4,2172437,GENERATING STATION,Engineering,1,45.5886,27.9414,53.34089614,-6.205191928,"Pigeon House Road, Ringsend, Dublin 4, D04 XD82",1519877.785,17759
+data_centre,,,,,,0,1351388.743,1351388.743,,Dublin 11/15,,DATA CENTRE,Data Centre,,,,53.40538,-6.37072,Blanchardstown,,
+industrial,,,6945,,,518332.3696,10782.7,529115.0696,,Dublin 15,570300,FACTORY (PHARMACEUTICAL),Laboratories,1,6687.0627,4098.5223,53.41361466,-6.425111769,"Damastown Industrial Estate, Mulhuddart, Dublin 15, D15 YE36",518332.3696,10782.7
+data_centre,,,,,,0,391604.5284,391604.5284,,Dublin 24,,DATA CENTRE,Data Centre,,,,53.29397,-6.34959,Tallaght,,
+data_centre,,,,,,0,366299.1397,366299.1397,,Co. Dublin,,DATA CENTRE,Data Centre,,,,53.4018,-6.21754,Clonshaugh,,
+data_centre,,,,,,0,347480.3486,347480.3486,,Dublin 22,,DATA CENTRE,Data Centre,,,,53.32986,-6.38269,Clondalkin,,
+industrial,,,2675,,,198650,10281,208931,,Dublin 22,2174969,FACTORY (PHARMACEUTICAL),Laboratories,1,2575.6505,1578.6245,53.32457639,-6.442797075,Grange Castle Business Park Nangor Road Dublin 22,198650,10281
+industrial,,,87915,,,84649.8369,51882.1581,136531.995,,Dublin 22,2170886,PHARMACEUTICAL,Laboratories,1,84649.8369,51882.1581,53.32615038,-6.435991721,,,
+data_centre,,,,,,0,63682.55802,63682.55802,,Dublin 24,,DATA CENTRE,Data Centre,,,,53.29182,-6.41536,CityWest,,
+industrial,,,30724,,,18990.0468,24856.04,43846.0868,,Co. Dublin,331625,FACTORY,Manufacturing (general),1,7733.84528,4740.09872,53.27088239,-6.150886833,"Pottery Road, Dun Laoghaire, Dublin",18990.0468,24856.04
+data_centre,,,,,,0,41366.70816,41366.70816,,Dublin 15,,DATA CENTRE,Data Centre,,,,53.41874,-6.41633,Clonee,,
+public_sector,,,,,,40442.66077,0,40442.66077,,Dublin 4,,,Schools and seasonal public buildings,,,,53.3081294,-6.2270405,university college dublin belfield main transmission supply dublin 4 ireland,40442.66077,0
+industrial,,,45632,,,17826.23423,18639.07,36465.30423,,Dublin 5,729556,FACTORY,Manufacturing (general),1,11486.48704,7040.10496,53.39128372,-6.199625221,"Malahide rd., Coolock, Dublin 5",17826.23423,18639.07
+public_sector,,,,,,17988.29375,17042.30486,35030.59861,,Dublin 9,,,Schools and seasonal public buildings,,,,53.3864895,-6.259260731,dublin city university dcu glasnevin campus dublin 9 ireland,17988.29375,17042.30486
+industrial,,,10579,,,19821.23756,12148.50044,31969.738,,Dublin 24,2166220,PRINTING WORKS,Paper,1,19821.23756,12148.50044,53.29183421,-6.412106489,,,
+industrial,,,16845,,,2373.1164,28576,30949.1164,,Co. Dublin,331622,FACTORY,Manufacturing (general),1,4240.2234,2598.8466,53.27509876,-6.155762262,"Pottery Road, Dun Laoghaire, Co. Dublin.",2373.1164,28576
+commercial,,,55897,,,23476.74,5030.73,28507.47,,Dublin 24,475944,HOSPITAL,Hospital (clinical and research),,23476.74,5030.73,53.29156674,-6.379295874,,,
+industrial,,,17486,,,16836.56996,10319.18804,27155.758,,Dublin 12,755342,FACTORY (PHARMACEUTICAL),Laboratories,1,16836.56996,10319.18804,53.31609828,-6.300449559,,,
+industrial,,,18472,,,16262.7488,9967.4912,26230.24,,Co. Dublin,1141530,FOOD PREPARATION,Food (cold),1,16262.7488,9967.4912,53.45223405,-6.278239255,,,
+industrial,,,16615,,,15997.9189,9805.1761,25803.095,,Co. Dublin,361520,FACTORY (PHARMACEUTICAL),Laboratories,1,15997.9189,9805.1761,53.46162449,-6.221862088,,,
+public_sector,,,,,,0,25785.3489,25785.3489,,Dublin 4,,,Schools and seasonal public buildings,,,,53.3081294,-6.2270405,university college dublin belfield main mv supply dublin 4 ireland,0,25785.3489
+data_centre,,,,,,0,24759.42267,24759.42267,,Dublin 10,,DATA CENTRE,Data Centre,,,,53.33431,-6.36549,Parkwest,,
+public_sector,,,,,,0,23076.508,23076.508,,Dublin 8,,,Hospital (clinical and research),,,,53.3403134,-6.295352,saint jamess hospital energy centre dublin 8 ireland,0,23076.508
+public_sector,,,,,,0,22208.35925,22208.35925,,Dublin 2,,,Schools and seasonal public buildings,,,,53.3434703,-6.2461704,trinity college dublin 188 pearse street dublin 2 ireland,0,22208.35925
+commercial,,,113556,,,18168.96,3974.46,22143.42,,Co. Dublin,2189287,DISTRIBUTION CENTRE,Storage facility,,18168.96,3974.46,53.48709208,-6.185212151,,,
+public_sector,,,,,,0,20295.908,20295.908,,Dublin 7,,,Hospital (clinical and research),,,,53.359998,-6.2654065,mater misericordiae university hospital mater hospital whitty building dublin 7 ireland,0,20295.908
+industrial,,,13327,,,11733.0908,7191.2492,18924.34,,Co. Dublin,283581,FOOD PREPARATION,Food (cold),1,11733.0908,7191.2492,53.51562686,-6.354299081,,,
+public_sector,,,,,,18870.15029,0,18870.15029,,Dublin 9,,,Hospital (clinical and research),,,,53.38888555,-6.225729928,beaumont hospital spring 100037 dublin 9 ireland,18870.15029,0
+industrial,,,3367,,,16680.48,1789,18469.48,,Dublin 1,757155,ASHPHALT PLANT,Manufacturing (general),1,847.54124,519.46076,53.3515464,-6.220811458,"Alexandra Road, Dublin 1, Dublin",16680.48,1789
+industrial,,,11614,,,10224.9656,6266.9144,16491.88,,Co. Dublin,2167354,FOOD PREPARATION,Food (cold),1,10224.9656,6266.9144,53.44590777,-6.282257248,,,
+public_sector,,,,,,0,16126.356,16126.356,,Dublin 9,,,Hospital (clinical and research),,,,53.38888555,-6.225729928,beaumont hospital esb main incomer dublin 9 ireland,0,16126.356
+public_sector,,,,,,16064.45944,0,16064.45944,,Dublin 15,,,Other (M&R),,,,53.3910621,-6.384261,sport ireland national aqautic centre dublin 15 ireland,16064.45944,0
+public_sector,,,,,,0,15703.067,15703.067,,Dublin 4,,,Hospital (clinical and research),,,,53.31684145,-6.212795738,saint vincents university hospital svuh campus all blocks dublin 4 ireland,0,15703.067
+industrial,,,10770,,,9481.908,5811.492,15293.4,,Dublin 15,295985,FACTORY (MEAT),Food (cold),1,9481.908,5811.492,53.41206847,-6.432973091,,,
+public_sector,,,,,,15215.71533,0,15215.71533,,Dublin 12,,,Hospital (clinical and research),,,,53.31928705,-6.31738412,childrens health ireland  chi at crumlin boiler house dublin 12 ireland,15215.71533,0
+industrial,,,10766,,,10154.7676,4993,15147.7676,,Dublin 15,295978,FACTORY (PHARMACEUTICAL),Laboratories,1,10366.15076,6353.44724,53.41295384,-6.421712677,"Damastown Industrial Park, Damastown Road, Mulhuddart, Dublin",10154.7676,4993
+public_sector,,,,,,14716.45577,0,14716.45577,,Dublin 24,,,Hospital (clinical and research),,,,53.2911931,-6.378828006,tallaght university hospital tallaght hospital dublin 24 ireland,14716.45577,0
+commercial,,,23725,,,9964.5,3558.75,13523.25,,Dublin 1,757049,THEATRE,Entertainment halls,,9964.5,3558.75,53.34713644,-6.228445511,,,
+industrial,,,4435,,,8309.5934,5092.9766,13402.57,,Dublin 24,2161083,PRINTING WORKS,Paper,1,8309.5934,5092.9766,53.29119477,-6.434351478,,,
+commercial,,,29611,,,9771.63,3109.155,12880.785,,Dublin 24,1545454,HOTEL,Hotel,,9771.63,3109.155,53.28603599,-6.446662119,,,
+industrial,,,8111,,,7809.75746,4786.62554,12596.383,,Dublin 13,381294,LABORATORY,Laboratories,1,7809.75746,4786.62554,53.39276643,-6.150113931,,,
+public_sector,,,,,,0,12489.468,12489.468,,Dublin 4,,,Other (M&R),,,,53.31487195,-6.221692131,raidio teilifis eireann route donnybrook d4 dublin 4 ireland,0,12489.468
+public_sector,,,,,,12472.20656,0,12472.20656,,Dublin 4,,,Hospital (clinical and research),,,,53.31684145,-6.212795738,"st vincents university hospital svuh campus block b,d,e,f,g,h,n,v &p dublin 4 ireland",12472.20656,0
+industrial,,,29421,,,7405.85412,4539.07188,11944.926,,Co. Dublin,359268,FACTORY,Manufacturing (general),1,7405.85412,4539.07188,53.44947758,-6.207625083,,,
+public_sector,,,,,,0,11861.43154,11861.43154,,Dublin 24,,,Hospital (clinical and research),,,,53.2911931,-6.378828006,tallaght university hospital tallaght hospital talaght dublin 24 ireland,0,11861.43154
+industrial,,,28444,,,7159.92368,4388.34032,11548.264,,Dublin 24,471570,FACTORY,Manufacturing (general),1,7159.92368,4388.34032,53.29502442,-6.366877121,,,
+industrial,,,7162,,,6896.00332,4226.58268,11122.586,,Dublin 15,1141454,FACTORY (PHARMACEUTICAL),Laboratories,1,6896.00332,4226.58268,53.41044385,-6.421511087,,,
+industrial,,,203,,,5364.1076,5731.9,11096.0076,,Dublin 15,2171054,FACTORY (PHARMACEUTICAL),Laboratories,1,195.46058,119.79842,53.41311874,-6.376422899,"Blanchardstown Industrial Park, Blanchardstown, Dublin 15",5364.1076,5731.9
+commercial,,,21313,,,8951.46,1918.17,10869.63,,Dublin 18,2187634,HOSPITAL,Hospital (clinical and research),,8951.46,1918.17,53.27593089,-6.219931522,,,
+industrial,,,3591,,,6728.24124,4123.76076,10852.002,,Dublin 24,477969,PRINTING WORKS,Paper,1,6728.24124,4123.76076,53.29513544,-6.352549864,,,
+commercial,,,24926,,,8225.58,2617.23,10842.81,,Co. Dublin,2185677,HOTEL,Hotel,,8225.58,2617.23,53.41177483,-6.217655483,,,
+commercial,,,24251,,,8002.83,2546.355,10549.185,,Dublin 4,843530,HOTEL,Hotel,,8002.83,2546.355,53.33216192,-6.233910036,,,
+industrial,,,2956,,,7159.91324,3356,10515.91324,,Dublin 10,601644,FACTORY,Manufacturing (general),1,744.08432,456.05168,53.33608238,-6.349288625,"Kylemore Park North, Ballyfermot, Dublin 10",7159.91324,3356
+commercial,,,23911,,,7890.63,2510.655,10401.285,,Dublin 4,2164027,HOTEL,Hotel,,7890.63,2510.655,53.32672601,-6.226316786,,,
+commercial,,,23843,,,7868.19,2503.515,10371.705,,Dublin 2,838413,HOTEL,Hotel,,7868.19,2503.515,53.3389824,-6.256045006,,,
+public_sector,,,,,,0,10367.45624,10367.45624,,Dublin 4,,,General office,,,,53.32285764,-6.226456584,allied irish banks public limited company bankcentre bankcentre dublin 4 ireland,0,10367.45624
+commercial,,,23829,,,7863.57,2502.045,10365.615,,Dublin 4,845812,HOTEL,Hotel,,7863.57,2502.045,53.33050498,-6.248713984,,,
+industrial,,,6634,,,6387.61324,3914.98876,10302.602,,Dublin 15,2111561,FACTORY (PHARMACEUTICAL),Laboratories,1,6387.61324,3914.98876,53.41018835,-6.410551068,,,
+public_sector,,,,,,10298.02125,0,10298.02125,,Dublin 10,,,Hospital (clinical and research),,,,53.3372454,-6.3854026,irish prison service wheatfield prison cloverhill road ballyfermot dublin 10 ireland,10298.02125,0
+commercial,,,47814,,,5737.68,4542.33,10280.01,,Dublin 4,784976,OFFICE (OTHER),General office,,5737.68,4542.33,53.31619192,-6.225892867,,,
+commercial,,,22166,,,7314.78,2327.43,9642.21,,Dublin 22,2180798,HOTEL,Hotel,,7314.78,2327.43,53.35533631,-6.401852124,,,
+industrial,,,22766,,,5037.02,4509.46,9546.48,,Dublin 12,406799,FACTORY,Manufacturing (general),1,5730.65752,3512.33848,53.32837629,-6.366976552,"Nangor Road
+Nangor House
+R & A Bailey and Co
+Clondalkin",5037.02,4509.46
+commercial,,,18615,,,7818.3,1675.35,9493.65,,Dublin 7,772858,HOSPITAL,Hospital (clinical and research),,7818.3,1675.35,53.35800282,-6.264332711,,,
+public_sector,,,,,,4679.961155,4766.132,9446.093155,,Dublin 7,,,Hospital (clinical and research),,,,53.36044288,-6.284562149,irish prison service mountjoy prison dublin 7 ireland,4679.961155,4766.132
+public_sector,,,,,,9349.88575,0,9349.88575,,Dublin 15,,,Hospital (clinical and research),,,,53.38895,-6.3802705,house james connolly memorial h main street blanchardstown dublin 15 ireland,9349.88575,0
+industrial,,,22697,,,5713.28884,3501.69316,9214.982,,Dublin 24,446995,FACTORY,Manufacturing (general),1,5713.28884,3501.69316,53.29328233,-6.439019801,,,
+public_sector,,,,,,8607.20241,0,8607.20241,,Dublin 20,,,Hospital (clinical and research),,,,53.35402477,-6.360950655,stewart's care limited stewart's palmerstown dublin 20 ireland,8607.20241,0
+industrial,,,21188,,,5333.44336,3268.88464,8602.328,,Dublin 10,601666,FACTORY,Manufacturing (general),1,5333.44336,3268.88464,53.3343348,-6.350163051,,,
+commercial,,,19740,,,6514.2,2072.7,8586.9,,Dublin 1,855950,HOTEL,Hotel,,6514.2,2072.7,53.35169036,-6.260614581,,,
+industrial,,,8312,,,7763.11049,804.734,8567.84449,,Dublin 12,467314,FACTORY,Manufacturing (general),1,2092.29664,1282.37536,53.31458814,-6.352902127,"Galco Steel Ltd.
+Ballymount Road,
+Walkinstown,
+Dublin 12",7763.11049,804.734
+commercial,,,16760,,,7039.2,1508.4,8547.6,,Dublin 9,710987,HOSPITAL,Hospital (clinical and research),,7039.2,1508.4,53.37840884,-6.246423107,,,
+commercial,,,42858,,,6857.28,1500.03,8357.31,,Dublin 11,5007263,DISTRIBUTION CENTRE,Storage facility,,6857.28,1500.03,53.43180596,-6.356300667,,,
+commercial,,,18819,,,6210.27,1975.995,8186.265,,Co. Dublin,527348,HOTEL,Hotel,,6210.27,1975.995,53.29215142,-6.13387669,,,
+industrial,,,7526,,,5067.40632,3105.82968,8173.236,,Dublin 12,396973,BAKERY,Food (cooked),1,5067.40632,3105.82968,53.31385824,-6.334911296,,,
+industrial,,,5755,,,5066.702,3105.398,8172.1,,Dublin 22,482858,FACTORY (MEAT),Food (cold),1,5066.702,3105.398,53.32999981,-6.386964985,,,
+commercial,,,13618,,,5991.92,2178.88,8170.8,,Dublin 18,498614,SPORTS & LEISURE CENTRE,Fitness and health centre,,5991.92,2178.88,53.26421864,-6.194027707,,,
+commercial,,,37952,,,6831.36,1328.32,8159.68,,Dublin 24,2178381,WORKSHOP,Workshop,,6831.36,1328.32,53.29729968,-6.478352569,,,
+commercial,,,37552,,,4506.24,3567.44,8073.68,,Dublin 4,1136898,CONFERENCE CENTRE,General office,,4506.24,3567.44,53.32701992,-6.228433025,,,
+commercial,,,18415,,,6076.95,1933.575,8010.525,,Co. Dublin,348087,HOTEL,Hotel,,6076.95,1933.575,53.4507737,-6.147323279,,,
+industrial,,,19620,,,4938.7464,3026.9736,7965.72,,Dublin 22,401812,FACTORY,Manufacturing (general),1,4938.7464,3026.9736,53.32048136,-6.35478681,,,
+commercial,,,13181,,,5799.64,2108.96,7908.6,,Dublin 3,2111456,SPORTS & LEISURE CENTRE,Fitness and health centre,,5799.64,2108.96,53.36348907,-6.228291501,,,
+commercial,,,39548,,,6327.68,1384.18,7711.86,,Dublin 9,2175092,DISTRIBUTION CENTRE,Storage facility,,6327.68,1384.18,53.40811801,-6.255214052,,,
+industrial,,,18746,,,4718.74312,2892.13288,7610.876,,Dublin 24,1035006,FACTORY,Manufacturing (general),1,4718.74312,2892.13288,53.29040484,-6.429543921,,,
+commercial,,,17495,,,5773.35,1836.975,7610.325,,Dublin 1,2207175,HOTEL,Hotel,,5773.35,1836.975,53.34904481,-6.22732046,,,
+commercial,,,14920,,,6266.4,1342.8,7609.2,,Dublin 20,2188229,HOSPITAL,Hospital (clinical and research),,6266.4,1342.8,53.3597502,-6.401032438,,,
+industrial,,,4827,,,4647.72522,2848.60578,7496.331,,Dublin 24,474455,LABORATORY,Laboratories,1,4647.72522,2848.60578,53.28037515,-6.381086002,,,
+industrial,,,2432,,,4556.69248,2792.81152,7349.504,,Dublin 13,381351,PRINTING WORKS,Paper,1,4556.69248,2792.81152,53.39227707,-6.145309815,,,
+public_sector,,,,,,0,7237.559,7237.559,,Dublin 12,,,Hospital (clinical and research),,,,53.31928705,-6.31738412,childrens health ireland  chi at crumlin our ladys childrens hospital crumlin dublin 12 ireland,0,7237.559
+industrial,,,17683,,,4451.16476,2728.13324,7179.298,,Dublin 12,401986,FACTORY,Manufacturing (general),1,4451.16476,2728.13324,53.31773973,-6.344445218,,,
+commercial,,,16460,,,5431.8,1728.3,7160.1,,Dublin 9,710985,HOTEL,Hotel,,5431.8,1728.3,53.37763915,-6.24662188,,,
+commercial,,,11769,,,5178.36,1883.04,7061.4,,Dublin 4,785378,SPORTS & LEISURE CENTRE,Fitness and health centre,,5178.36,1883.04,53.31506686,-6.23505784,,,
+commercial,,,32671,,,3920.52,3103.745,7024.265,,Dublin 2,799420,OFFICE (1ST GENERATION),General office,,3920.52,3103.745,53.337308,-6.247733191,,,
+public_sector,,,,,,7022.51108,0,7022.51108,,Dublin 1,,,Hospital (clinical and research),,,,53.35311837,-6.254685299,childrens university hospital cuh temple saint boiler dublin 1 ireland,7022.51108,0
+commercial,,,5013,,,5664.69,1228.185,6892.875,,Dublin 22,404504,SWIMMING POOL,Swimming pool centre,,5664.69,1228.185,53.32193092,-6.399138261,,,
+commercial,,,12090,,,5077.8,1813.5,6891.3,,Dublin 22,2111529,CINEMA,Entertainment halls,,5077.8,1813.5,53.35309531,-6.39029099,,,
+industrial,,,16882,,,4249.53704,2604.55496,6854.092,,Dublin 7,609897,FACTORY,Manufacturing (general),1,4249.53704,2604.55496,53.36965297,-6.288608472,,,
+industrial,,,16612,,,4181.57264,2562.89936,6744.472,,Dublin 1,757123,PROVENDER MILL / FLOUR MILL,Manufacturing (general),1,4181.57264,2562.89936,53.35038922,-6.215607987,,,
+commercial,,,11806,,,4958.52,1770.9,6729.42,,Dublin 2,2207051,THEATRE,Entertainment halls,,4958.52,1770.9,53.34433402,-6.240581384,,,
+commercial,,,15440,,,5095.2,1621.2,6716.4,,Dublin 18,2171186,HOTEL,Hotel,,5095.2,1621.2,53.27132799,-6.205823371,,,
+commercial,,,11650,,,4893,1747.5,6640.5,,Dublin 9,2171317,THEATRE,Entertainment halls,,4893,1747.5,53.38634252,-6.25948968,,,
+commercial,,,15246,,,5031.18,1600.83,6632.01,,Dublin 22,404450,HOTEL,Hotel,,5031.18,1600.83,53.30962352,-6.403505547,,,
+public_sector,,,,,,6607.41699,0,6607.41699,,Dublin 4,,,General office,,,,53.32285764,-6.226456584,allied irish banks public limited company bankcentre dublin 4 ireland,6607.41699,0
+commercial,,,15006,,,4951.98,1575.63,6527.61,,Dublin 2,791639,HOTEL,Hotel,,4951.98,1575.63,53.34542639,-6.24093172,,,
+commercial,,,14795,,,4882.35,1553.475,6435.825,,Dublin 2,814348,HOTEL,Hotel,,4882.35,1553.475,53.33494393,-6.257391246,,,
+commercial,,,14532,,,4795.56,1525.86,6321.42,,Dublin 2,840690,HOTEL,Hotel,,4795.56,1525.86,53.338552,-6.252699755,,,
+public_sector,,,,,,0,6298.0366,6298.0366,,Dublin 8,,,General office,,,,53.3588491,-6.330646672,an garda siochana pay & claims garda hq phoenix park dublin 8 ireland,0,6298.0366
+commercial,,,32098,,,5135.68,1123.43,6259.11,,Dublin 22,1035137,WAREHOUSE,Storage facility,,5135.68,1123.43,53.31782968,-6.359354327,,,
+commercial,,,31440,,,5030.4,1100.4,6130.8,,Dublin 24,2163888,WAREHOUSE,Storage facility,,5030.4,1100.4,53.28206749,-6.417171095,,,
+commercial,,,28502,,,3420.24,2707.69,6127.93,,Dublin 1,2193265,OFFICE (3RD GENERATION),General office,,3420.24,2707.69,53.34807396,-6.238137016,,,
+commercial,,,13846,,,4569.18,1453.83,6023.01,,Dublin 4,843624,HOTEL,Hotel,,4569.18,1453.83,53.33303061,-6.232652494,,,
+commercial,,,13811,,,4557.63,1450.155,6007.785,,Co. Dublin,1545418,HOTEL,Hotel,,4557.63,1450.155,53.42654677,-6.232521317,,,
+commercial,,,13768,,,4543.44,1445.64,5989.08,,Dublin 9,2172720,HOTEL,Hotel,,4543.44,1445.64,53.40450519,-6.245500758,,,
+public_sector,,,,,,5985.8055,0,5985.8055,,Dublin 4,,,Other (M&R),,,,53.32285764,-6.226456584,raidio teilifis eireann donnybrook dublin 4 ireland,5985.8055,0
+commercial,,,27646,,,3317.52,2626.37,5943.89,,Dublin 1,2207178,CONFERENCE CENTRE,General office,,3317.52,2626.37,53.34765437,-6.239822346,,,
+commercial,,,13592,,,4485.36,1427.16,5912.52,,Dublin 22,404670,HOTEL,Hotel,,4485.36,1427.16,53.3132982,-6.392590996,,,
+commercial,,,27365,,,3283.8,2599.675,5883.475,,Dublin 8,820485,OFFICE (3RD GENERATION),General office,,3283.8,2599.675,53.34483257,-6.271211227,,,
+commercial,,,13368,,,4411.44,1403.64,5815.08,,Co. Dublin,505664,HOTEL,Hotel,,4411.44,1403.64,53.26951379,-6.112858048,,,
+commercial,,,13267,,,4378.11,1393.035,5771.145,,Dublin 4,786927,HOTEL,Hotel,,4378.11,1393.035,53.32588332,-6.224851508,,,
+commercial,,,11089,,,4657.38,998.01,5655.39,,Dublin 14,315959,HOSPITAL,Hospital (clinical and research),,4657.38,998.01,53.30424386,-6.26553904,,,
+commercial,,,12988,,,4286.04,1363.74,5649.78,,Dublin 2,855648,HOTEL,Hotel,,4286.04,1363.74,53.34563124,-6.258577662,,,
+industrial,,,13869,,,3491.10468,2139.70932,5630.814,,Dublin 11,1032509,FACTORY,Manufacturing (general),1,3491.10468,2139.70932,53.39376735,-6.297089271,,,
+industrial,,,5168,,,3479.71776,2132.73024,5612.448,,Dublin 10,1033486,BAKERY,Food (cooked),1,3479.71776,2132.73024,53.33220614,-6.354618572,,,
+commercial,,,9337,,,4108.28,1493.92,5602.2,,Dublin 18,2170504,SPORTS & LEISURE CENTRE,Fitness and health centre,,4108.28,1493.92,53.26579257,-6.238331183,,,
+industrial,,,13737,,,3457.87764,2119.34436,5577.222,,Dublin 11,690144,FACTORY,Manufacturing (general),1,3457.87764,2119.34436,53.3942376,-6.299964622,,,
+public_sector,,,,,,2666.54291,2867.536,5534.07891,,Dublin 1,,,General office,,,,53.3475452,-6.239849,central bank of ireland north wall quay dublin 1 ireland,2666.54291,2867.536
+public_sector,,,,,,3877.59427,1624.137,5501.73127,,Co. Dublin,,,Hospital (clinical and research),,,,53.53350255,-6.270785045,house saint colmcilles co dublin ireland,3877.59427,1624.137
+industrial,,,13539,,,3408.03708,2088.79692,5496.834,,Dublin 24,474464,FACTORY,Manufacturing (general),1,3408.03708,2088.79692,53.28133218,-6.380848153,,,
+public_sector,,,,,,2407.26572,3084.864,5492.12972,,Co. Dublin,,,Other (M&R),,,,53.53350255,-6.270785045,central bank of ireland sandyford  currency centre co dublin ireland,2407.26572,3084.864
+commercial,,,9617,,,4039.14,1442.55,5481.69,,Dublin 1,1141613,CINEMA,Entertainment halls,,4039.14,1442.55,53.35036787,-6.267120719,,,
+commercial,,,12449,,,4108.17,1307.145,5415.315,,Dublin 24,5003100,HOTEL,Hotel,,4108.17,1307.145,53.28603599,-6.446662119,,,
+commercial,,,12426,,,4100.58,1304.73,5405.31,,Dublin 2,788480,HOTEL,Hotel,,4100.58,1304.73,53.34168216,-6.261396249,,,
+industrial,,,1781,,,3336.95284,2045.22916,5382.182,,Dublin 20,459959,PRINTING WORKS,Paper,1,3336.95284,2045.22916,53.35681776,-6.374794795,,,
+commercial,,,25026,,,3003.12,2377.47,5380.59,,Dublin 18,2166330,OFFICE (3RD GENERATION),General office,,3003.12,2377.47,53.27185636,-6.202114374,,,
+public_sector,,,,,,0,5365.622,5365.622,,Co. Dublin,,,Hospital (clinical and research),,,,53.53350255,-6.270785045,house connolly hospital co dublin ireland,0,5365.622
+industrial,,,13196,,,3321.69712,2035.87888,5357.576,,Dublin 16,335796,FACTORY,Manufacturing (general),1,3321.69712,2035.87888,53.27353133,-6.231784085,,,
+commercial,,,27338,,,4374.08,956.83,5330.91,,Co. Dublin,305456,HANGAR,Storage facility,,4374.08,956.83,53.43018428,-6.239820981,,,
+commercial,,,24623,,,2954.76,2339.185,5293.945,,Dublin 1,2151433,OFFICE (3RD GENERATION),General office,,2954.76,2339.185,53.34810049,-6.245163932,,,
+public_sector,,,,,,2999.6443,2286.12,5285.7643,,Dublin 7,,,General office,,,,53.3478981,-6.2909137,courts service criminal courts of justice  ccj parkgate street dublin 7 ireland,2999.6443,2286.12
+industrial,,,1672,,,4710.45,573,5283.45,,Dublin 12,406822,FACTORY,Manufacturing (general),1,420.87584,257.95616,53.33059613,-6.352179308,"COLFIX (DUBLIN) LTD.,
+BLUEBELL INDUSTRIAL ESTATE,
+DUBLIN 12.",4710.45,573
+commercial,,,24549,,,2945.88,2332.155,5278.035,,Dublin 2,791435,OFFICE (1ST GENERATION),General office,,2945.88,2332.155,53.33630669,-6.247162472,,,
+public_sector,,,,,,3145.82693,2124.103,5269.92993,,Dublin 9,,,Schools and seasonal public buildings,,,,53.3864895,-6.259260731,dublin city university dcu saint patricks campus dublin 9 ireland,3145.82693,2124.103
+commercial,,,12092,,,3990.36,1269.66,5260.02,,Dublin 3,771463,HOTEL,Hotel,,3990.36,1269.66,53.36056461,-6.253945331,,,
+public_sector,,,,,,3248.84795,2002.917,5251.76495,,Dublin 8,,,Schools and seasonal public buildings,,,,53.3501156,-6.314137949,dublin institute of technology dit aungier street dublin 8 ireland,3248.84795,2002.917
+commercial,,,12012,,,3963.96,1261.26,5225.22,,Dublin 8,673443,HOTEL,Hotel,,3963.96,1261.26,53.34812473,-6.290881723,,,
+commercial,,,21610,,,3673.7,1512.7,5186.4,,Dublin 1,731150,DEPARTMENT STORE,Large non-food shop,,3673.7,1512.7,53.3491684,-6.263157875,,,
+public_sector,,,,,,0,5183.861,5183.861,,Dublin 2,,,Schools and seasonal public buildings,,,,53.3434703,-6.2461704,trinity college dublin biomedical sciences institute pearse street dublin 2 ireland,0,5183.861
+public_sector,,,,,,1179.802695,3998.39028,5178.192975,,Dublin 8,,,General office,,,,53.3501156,-6.314137949,dublin city council dcc civic offices head office dublin 8 ireland,1179.802695,3998.39028
+public_sector,,,,,,5176.33987,0,5176.33987,,Dublin 2,,,Schools and seasonal public buildings,,,,53.3444162,-6.2589561,trinity college dublin biomedical sciences institute pearse street boilers dublin 2 ireland,5176.33987,0
+industrial,,,1701,,,3187.06164,1953.36036,5140.422,,Dublin 10,457016,PRINTING WORKS,Paper,1,3187.06164,1953.36036,53.3468984,-6.374257111,,,
+commercial,,,11803,,,3894.99,1239.315,5134.305,,Dublin 15,2197548,HOTEL,Hotel,,3894.99,1239.315,53.39589329,-6.390514732,,,
+commercial,,,26023,,,4163.68,910.805,5074.485,,Dublin 24,5001929,DISTRIBUTION CENTRE,Storage facility,,4163.68,910.805,53.29334384,-6.416002254,,,
+commercial,,,11459,,,3781.47,1203.195,4984.665,,Dublin 4,843900,HOTEL,Hotel,,3781.47,1203.195,53.3333215,-6.246700338,,,
+public_sector,,,,,,2507.99476,2463.139,4971.13376,,Dublin 24,,,Schools and seasonal public buildings,,,,53.29101685,-6.363056129,institute of technology tallaght main building dublin 24 ireland,2507.99476,2463.139
+commercial,,,25487,,,4077.92,892.045,4969.965,,Dublin 15,2171166,DISTRIBUTION CENTRE,Storage facility,,4077.92,892.045,53.41741393,-6.413423219,,,
+commercial,,,23060,,,2767.2,2190.7,4957.9,,Dublin 4,2210944,OFFICE (3RD GENERATION),General office,,2767.2,2190.7,53.3397878,-6.236927029,,,
+commercial,,,11280,,,3722.4,1184.4,4906.8,,Dublin 2,1544820,HOTEL,Hotel,,3722.4,1184.4,53.33320642,-6.264356688,,,
+commercial,,,11251,,,3712.83,1181.355,4894.185,,Co. Dublin,292821,HOTEL,Hotel,,3712.83,1181.355,53.42769853,-6.233963502,,,
+commercial,,,11172,,,3686.76,1173.06,4859.82,,Dublin 2,1136886,HOTEL,Hotel,,3686.76,1173.06,53.33117779,-6.259334674,,,
+public_sector,,,,,,4857.34036,0,4857.34036,,Dublin 2,,,Schools and seasonal public buildings,,,,53.3434703,-6.2461704,trinity college dublin biomedical sciences institute pearse street chp dublin 2 ireland,4857.34036,0
+commercial,,,24820,,,3971.2,868.7,4839.9,,Dublin 17,733237,WAREHOUSE,Storage facility,,3971.2,868.7,53.40307426,-6.229439294,,,
+public_sector,,,,,,3512.2978,1282.642,4794.9398,,Dublin 6,,,Schools and seasonal public buildings,,,,53.31776934,-6.259731031,trinity college dublin trinity hall dublin 6 ireland,3512.2978,1282.642
+public_sector,,,,,,4750.80604,0,4750.80604,,Dublin 2,,,Other (M&R),,,,53.3428316,-6.2656414,office of public works dublin castle dublin 2 ireland,4750.80604,0
+industrial,,,5054,,,2609.579,2124.691,4734.27,,Dublin 15,570301,FACTORY (PHARMACEUTICAL),Laboratories,1,4866.29444,2982.56756,53.4110647,-6.423549662,"Damastown Mulhaddart, Dublin 15",2609.579,2124.691
+commercial,,,7848,,,3453.12,1255.68,4708.8,,Dublin 9,2172520,SPORTS & LEISURE CENTRE,Fitness and health centre,,3453.12,1255.68,53.40885368,-6.242212137,,,
+commercial,,,10795,,,3562.35,1133.475,4695.825,,Dublin 1,2163773,HOTEL,Hotel,,3562.35,1133.475,53.34802521,-6.243419977,,,
+commercial,,,23857,,,3817.12,834.995,4652.115,,Dublin 7,673024,BUS DEPOT,Storage facility,,3817.12,834.995,53.3552149,-6.274409319,,,
+commercial,,,10602,,,3498.66,1113.21,4611.87,,Dublin 15,2178871,HOTEL,Hotel,,3498.66,1113.21,53.36605365,-6.389707543,,,
+public_sector,,,,,,4605.67063,0,4605.67063,,Dublin 8,,,Hospital (clinical and research),,,,53.3403134,-6.295352,saint jamess hospital phase 1h dublin 8 ireland,4605.67063,0
+industrial,,,11306,,,2845.94632,1744.28968,4590.236,,Co. Dublin,359925,FACTORY,Manufacturing (general),1,2845.94632,1744.28968,53.45633949,-6.210100423,,,
+commercial,,,10465,,,3453.45,1098.825,4552.275,,Co. Dublin,511921,HOTEL,Hotel,,3453.45,1098.825,53.30511754,-6.205945199,,,
+industrial,,,2927,,,2818.29122,1727.33978,4545.631,,Dublin 13,381289,FACTORY (PHARMACEUTICAL),Laboratories,1,2818.29122,1727.33978,53.39394305,-6.149810574,,,
+commercial,,,21085,,,2530.2,2003.075,4533.275,,Co. Dublin,359820,OFFICE (BUSINESS PARK),General office,,2530.2,2003.075,53.46003524,-6.211531844,,,
+commercial,,,10345,,,3413.85,1086.225,4500.075,,Dublin 1,766689,HOTEL,Hotel,,3413.85,1086.225,53.35247902,-6.260013427,,,
+commercial,,,23016,,,3682.56,805.56,4488.12,,Dublin 15,2165874,DISTRIBUTION CENTRE,Storage facility,,3682.56,805.56,53.41406388,-6.367811591,,,
+commercial,,,10275,,,3390.75,1078.875,4469.625,,Dublin 8,2193676,HOTEL,Hotel,,3390.75,1078.875,53.34109406,-6.267982799,,,
+public_sector,,,,,,4456.56281,0,4456.56281,,Dublin 6,,,Other (M&R),,,,53.31776934,-6.259731031,defence forces cathal brugha barracks harolds cross dublin 6 ireland,4456.56281,0
+commercial,,,20643,,,2477.16,1961.085,4438.245,,Dublin 7,2204665,OFFICE (3RD GENERATION),General office,,2477.16,1961.085,53.34771422,-6.275233954,,,
+commercial,,,20602,,,2472.24,1957.19,4429.43,,Dublin 18,2170343,OFFICE (3RD GENERATION),General office,,2472.24,1957.19,53.2674283,-6.199287904,,,
+industrial,,,10879,,,2738.46188,1678.41212,4416.874,,Dublin 11,2184318,FACTORY,Manufacturing (general),1,2738.46188,1678.41212,53.39478209,-6.296698543,,,
+commercial,,,10143,,,3347.19,1065.015,4412.205,,Dublin 22,5001878,HOTEL,Hotel,,3347.19,1065.015,53.31561597,-6.384232448,,,
+industrial,,,7227,,,46.6204,4358,4404.6204,,Dublin 15,2111562,FACTORY (PHARMACEUTICAL),Laboratories,1,6958.58922,4264.94178,53.41105462,-6.414494336,"Damastown Industrial Estate, Mulhaddart Dublin 15",46.6204,4358
+commercial,,,20344,,,2441.28,1932.68,4373.96,,Dublin 2,2191920,OFFICE (3RD GENERATION),General office,,2441.28,1932.68,53.33340384,-6.261650098,,,
+commercial,,,17773,,,3021.41,1244.11,4265.52,,Dublin 11,2201629,DIY SUPERSTORE,Large non-food shop,,3021.41,1244.11,53.40705038,-6.277077199,,,
+industrial,,,2746,,,2644.01356,1620.52444,4264.538,,Co. Dublin,361519,FACTORY (CHEMICAL),Laboratories,1,2644.01356,1620.52444,53.46084423,-6.223263244,,,
+industrial,,,10995,,,2638.1403,1616.9247,4255.065,,Dublin 18,496737,GARAGE,Engineering,1,2638.1403,1616.9247,53.26041068,-6.150002013,,,
+commercial,,,9740,,,3214.2,1022.7,4236.9,,Dublin 2,2151135,HOTEL,Hotel,,3214.2,1022.7,53.34525967,-6.254198368,,,
+commercial,,,21585,,,3453.6,755.475,4209.075,,Dublin 24,477958,WAREHOUSE,Storage facility,,3453.6,755.475,53.29386371,-6.349787269,,,
+public_sector,,,,,,0,4204.12875,4204.12875,,Dublin 11,,,General office,,,,53.3981716,-6.2990497,department of finance jamestown business park unit 9 dublin 11 ireland,0,4204.12875
+public_sector,,,,,,0,4197.433,4197.433,,Dublin 1,,,Hospital (clinical and research),,,,53.35311837,-6.254685299,childrens university hospital sub station cuh temple saint dublin 1 ireland,0,4197.433
+commercial,,,9625,,,3176.25,1010.625,4186.875,,Dublin 13,351593,HOTEL,Hotel,,3176.25,1010.625,53.42961877,-6.126138687,,,
+commercial,,,9624,,,3175.92,1010.52,4186.44,,Dublin 17,2180573,HOTEL,Hotel,,3175.92,1010.52,53.40370861,-6.179702718,,,
+industrial,,,10301,,,2592.96772,1589.23828,4182.206,,Co. Dublin,331332,FACTORY,Manufacturing (general),1,2592.96772,1589.23828,53.27832205,-6.159867435,,,
+public_sector,,,,,,3276.398645,904.504,4180.902645,,Co. Dublin,,,Hospital (clinical and research),,,,53.53350255,-6.270785045,house saint itas hospital co dublin ireland,3276.398645,904.504
+public_sector,,,,,,4178.19569,0,4178.19569,,Dublin 10,,,Hospital (clinical and research),,,,53.3426453,-6.358787,house cherry orchard hospital ballyfermot road ballyfermot dublin 10 ireland,4178.19569,0
+public_sector,,,,,,0,4164.635,4164.635,,Dublin 15,,,Other (M&R),,,,53.3910621,-6.384261,sport ireland national aquatic centre dublin 15 ireland,0,4164.635
+commercial,,,9559,,,3154.47,1003.695,4158.165,,Dublin 15,2187126,HOTEL,Hotel,,3154.47,1003.695,53.41603765,-6.379785425,,,
+public_sector,,,,,,4120.52452,0,4120.52452,,Dublin 8,,,Hospital (clinical and research),,,,53.3345547,-6.288261613,coombe women & infants university hospital rear car park number 4 dublin 8 ireland,4120.52452,0
+commercial,,,21102,,,3376.32,738.57,4114.89,,Dublin 11,1545924,WAREHOUSE,Storage facility,,3376.32,738.57,53.40313359,-6.353566119,,,
+industrial,,,10128,,,2549.42016,1562.54784,4111.968,,Co. Dublin,2197280,FACTORY,Manufacturing (general),1,2549.42016,1562.54784,53.60019239,-6.197649245,,,
+commercial,,,21065,,,3370.4,737.275,4107.675,,Dublin 22,2144659,WAREHOUSE,Storage facility,,3370.4,737.275,53.32084148,-6.441924458,,,
+commercial,,,9416,,,3107.28,988.68,4095.96,,Dublin 1,856658,HOTEL,Hotel,,3107.28,988.68,53.35159081,-6.262998693,,,
+industrial,,,9737,,,2967,1115,4082,,Dublin 12,406817,FACTORY,Manufacturing (general),1,2450.99764,1502.22436,53.32905528,-6.354294095,"Kayfoam Woolfson
+Bluebell Industrial Estate,
+Naas Road,
+Dublin 12
+D12 PKRl",2967,1115
