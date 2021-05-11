@@ -7,3 +7,4 @@ dependencies:
   - plotly
   - streamlit
   - pandas-stubs
+  - pandas-bokeh
