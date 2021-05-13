@@ -7,5 +7,8 @@ dependencies:
   - plotly
   - streamlit
   - pandas-stubs
-  - pandas-bokeh
-  - streamlit-bokeh-events
+
+  - pip
+  - pip:
+    - streamlit-bokeh-events
+    - bokeh==2.2.2
