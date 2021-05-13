@@ -23,9 +23,19 @@ from streamlit_bokeh_events import streamlit_bokeh_events
 
 st.set_page_config(layout="wide")
 
-st.title("Dublin Large Energy Consumers")
+# LAYING OUT THE TOP SECTION OF THE APP
+row1_1, row1_2 = st.beta_columns((2,3))
 
-st.subheader("Select Lasso Tool to Extract Data from Interactive Map")
+with row1_1:
+    st.title("Dublin Large Energy Consumers")
+
+with row1_2:
+    st.write(
+    """
+    ##
+    Examining the 200 largest energy consumers across county Dublin, as of the open-access Valuation.
+    Office Dataset, crossed with CIBSE TM46 Benchmarks. Select the Lasso Tool to Extract Data from the Interactive Map.
+    """)
 
 df = pd.read_csv("data/top_200_building_demands.csv")
 gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.latitude))
