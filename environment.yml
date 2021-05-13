@@ -1,6 +1,7 @@
 name: ldc
 channels:
   - conda-forge
+  - patrikhlobil
   - defaults
 dependencies:
   - geopandas
