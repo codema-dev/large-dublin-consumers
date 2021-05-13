@@ -1,17 +1,11 @@
 
-from pathlib import Path
 from typing import List
-from typing import Tuple
 from bokeh.models.widgets.tables import DataTable
 
 import geopandas as gpd
 from geopandas import GeoDataFrame
-import numpy as np
 import pandas as pd
-from pandas import DataFrame
-import plotly.express as px
 import streamlit as st
-import matplotlib.pyplot as plt
 
 import pandas_bokeh
 from bokeh.plotting import figure, output_file, show
@@ -27,27 +21,32 @@ st.set_page_config(layout="wide")
 row1_1, row1_2 = st.beta_columns((2,3))
 
 with row1_1:
-    st.title("Dublin Large Energy Consumers")
+    st.title("Dublin EPA ETS Sites")
 
 with row1_2:
     st.write(
     """
     ##
-    Examining the 200 largest energy consumers across county Dublin, as of the open-access Valuation.
-    Office Dataset, crossed with CIBSE TM46 Benchmarks. Select the Lasso Tool to Extract Data from the Interactive Map.
+    Examining the EPA Emissions Trading Scheme (ETS) buildings across county Dublin, and their relevant 
+    Select the Lasso Tool to Extract Data from the Interactive Map.
     """)
 
-df = pd.read_csv("data/top_200_building_demands.csv")
-gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.latitude))
 
-map_data = gdf[["building_type", "inferred_energy_mwh_per_year", "Benchmark", "address", "latitude", "longitude", "geometry"]]
+# READ IN TOP BUILDINGS DEMANDS
+df = pd.read_csv("data/epa_ets_sites_dublin.csv")
+gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.Longitude, df.Latitude))
+
+map_data = gdf[["Name", "Installation Name", "License",	"ID", "Address", "metered_annual_emissions_tco2", "estimated_annual_electricity_mwh", "Use", "Latitude", "Longitude", "geometry"]]
+
+map_data = gpd.GeoDataFrame(map_data)
+
 map_data = map_data.set_crs(epsg="4326")
 map_data = map_data.to_crs(epsg="3857")
 
 map_data["x"] = map_data.geometry.apply(lambda row:row.x)
 map_data["y"] = map_data.geometry.apply(lambda row:row.y)
 
-map_data = map_data[["building_type", "inferred_energy_mwh_per_year", "Benchmark", "address", "x", "y"]]
+map_data = map_data[["Name", "Installation Name", "License", "ID", "Address", "metered_annual_emissions_tco2", "estimated_annual_electricity_mwh", "Use", "x", "y"]]
 
 df = map_data
 
@@ -101,7 +100,7 @@ plot = figure(x_axis_type="mercator", y_axis_type="mercator", tools="pan, box_zo
 plot.xaxis.axis_label = 'longitude'
 plot.yaxis.axis_label = 'latitude'
 
-tile_provider = get_provider(Vendors.CARTODBPOSITRON)
+tile_provider = get_provider(CARTODBPOSITRON)
 
 plot.add_tile(tile_provider)
 plot.circle("x", "y", fill_alpha=0.5, size=5, line_color=None, source=cds_lasso)

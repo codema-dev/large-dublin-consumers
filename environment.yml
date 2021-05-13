@@ -8,3 +8,4 @@ dependencies:
   - streamlit
   - pandas-stubs
   - pandas-bokeh
+  - streamlit-bokeh-events
