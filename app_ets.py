@@ -1,5 +1,3 @@
-
-from typing import List
 from bokeh.models.widgets.tables import DataTable
 
 import geopandas as gpd
@@ -7,7 +5,6 @@ from geopandas import GeoDataFrame
 import pandas as pd
 import streamlit as st
 
-import pandas_bokeh
 from bokeh.plotting import figure, output_file, show
 from bokeh.tile_providers import CARTODBPOSITRON, get_provider, Vendors 
 from bokeh.plotting import gmap
