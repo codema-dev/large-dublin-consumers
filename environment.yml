@@ -9,5 +9,6 @@ dependencies:
   - streamlit
   - pandas-stubs
   - pip
+  
   - pip:
     - bokeh==2.2.2
