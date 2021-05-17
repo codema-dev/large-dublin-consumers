@@ -4,11 +4,11 @@ channels:
   - patrikhlobil
   - defaults
 dependencies:
-  - geopandas
-  - plotly
-  - streamlit
-  - pandas-stubs
-  - pip
-  
+  - geopandas==0.9.0
+  - plotly==4.13.3
+  - streamlit==0.81.1
+  - pandas-stubs==1.1.0.6
+  - pip==21.1.1
   - pip:
+    - streamlit-bokeh-events==0.1.2
     - bokeh==2.2.2
