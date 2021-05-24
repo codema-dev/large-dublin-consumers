@@ -1,9 +1,10 @@
 name: ldc
 channels:
   - conda-forge
+  - patrikhlobil
   - defaults
 dependencies:
-  - geopandas
+  - geopandas==0.9.0
   - plotly
   - streamlit
 
