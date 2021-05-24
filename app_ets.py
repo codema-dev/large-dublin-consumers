@@ -7,12 +7,10 @@ from geopandas import GeoDataFrame
 import pandas as pd
 import streamlit as st
 
-import pandas_bokeh
-from bokeh.plotting import figure, output_file, show
-from bokeh.tile_providers import CARTODBPOSITRON, get_provider, Vendors 
-from bokeh.plotting import gmap
-from bokeh.models import ColumnDataSource, CustomJS
-from bokeh.models import TableColumn
+from bokeh.plotting import figure
+from bokeh.tile_providers import CARTODBPOSITRON, get_provider
+from bokeh.models import ColumnDataSource, CustomJS, tools
+from bokeh.models import TableColumn, WidgetBox
 from streamlit_bokeh_events import streamlit_bokeh_events
 
 st.set_page_config(layout="wide")
@@ -82,7 +80,9 @@ with col1:
         if result.get("INDEX_SELECT"):
             st.write(df.iloc[result.get("INDEX_SELECT")["data"]])
 
-plot = figure(tools="lasso_select,zoom_in", width=250, height=250)
+plot = figure(tools="pan, box_zoom, wheel_zoom, lasso_select", width=250, height=250, toolbar_location="right")
+
+
 cds_lasso = ColumnDataSource(df)
 cds_lasso.selected.js_on_change(
     "indices",
@@ -96,6 +96,21 @@ cds_lasso.selected.js_on_change(
     )
 )
 
+import base64
+# Assuming UTF-8 encoding, change to something else if you need to
+base64.b64encode("password".encode("utf-8"))
+
+def get_table_download_link(df):
+    """Generates a link allowing the data in a given panda dataframe to be downloaded
+    in:  dataframe
+    out: href string
+    """
+    csv = df.to_csv(index=False)
+    b64 = base64.b64encode(csv.encode()).decode()  # some strings <-> bytes conversions necessary here
+    href = f'<a href="data:file/csv;base64,{b64}" download="ets-demand-data.csv">Download selected data in csv file</a>'
+
+    return href
+
 plot = figure(x_axis_type="mercator", y_axis_type="mercator", tools="pan, box_zoom, wheel_zoom, lasso_select")
 plot.xaxis.axis_label = 'longitude'
 plot.yaxis.axis_label = 'latitude'
@@ -103,7 +118,7 @@ plot.yaxis.axis_label = 'latitude'
 tile_provider = get_provider(CARTODBPOSITRON)
 
 plot.add_tile(tile_provider)
-plot.circle("x", "y", fill_alpha=0.5, size=5, line_color=None, source=cds_lasso)
+plot.circle("x", "y", fill_alpha=0.5, size=5, source=cds_lasso)
 with col2:
     result_lasso = streamlit_bokeh_events(
         bokeh_plot=plot,
@@ -114,3 +129,4 @@ with col2:
     if result_lasso:
         if result_lasso.get("LASSO_SELECT"):
             st.write(df.iloc[result_lasso.get("LASSO_SELECT")["data"]])
+            st.markdown(get_table_download_link(df), unsafe_allow_html=True)

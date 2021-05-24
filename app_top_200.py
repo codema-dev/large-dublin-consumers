@@ -64,6 +64,21 @@ cds.selected.js_on_change(
     )
 )
 
+import base64
+# Assuming UTF-8 encoding, change to something else if you need to
+base64.b64encode("password".encode("utf-8"))
+
+def get_table_download_link(df):
+    """Generates a link allowing the data in a given panda dataframe to be downloaded
+    in:  dataframe
+    out: href string
+    """
+    csv = df.to_csv(index=False)
+    b64 = base64.b64encode(csv.encode()).decode()  # some strings <-> bytes conversions necessary here
+    href = f'<a href="data:file/csv;base64,{b64}" download="large-demand-data.csv">Download selected data in csv file</a>'
+
+    return href
+
 table = DataTable(source=cds, columns=columns)
 with col1:
     result = streamlit_bokeh_events(
@@ -110,3 +125,4 @@ with col2:
     if result_lasso:
         if result_lasso.get("LASSO_SELECT"):
             st.write(df.iloc[result_lasso.get("LASSO_SELECT")["data"]])
+            st.markdown(get_table_download_link(df), unsafe_allow_html=True)

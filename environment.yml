@@ -6,9 +6,8 @@ dependencies:
   - geopandas
   - plotly
   - streamlit
-  - pandas-stubs
 
   - pip
   - pip:
     - streamlit-bokeh-events
-    - bokeh==2.2.2
+    - bokeh==2.2.3
