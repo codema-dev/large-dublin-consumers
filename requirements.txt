@@ -1,0 +1,7 @@
+geopandas
+plotly
+streamlit
+pandas-stubs
+bokeh==2.2.3
+streamlit-bokeh-events
+pip
