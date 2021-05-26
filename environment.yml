@@ -1,0 +1,14 @@
+name: ldc
+channels:
+  - conda-forge
+  - patrikhlobil
+  - defaults
+dependencies:
+  - geopandas==0.9.0
+  - plotly
+  - streamlit
+
+  - pip
+  - pip:
+    - streamlit-bokeh-events
+    - bokeh==2.2.3
