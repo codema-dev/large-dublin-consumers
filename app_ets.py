@@ -78,7 +78,7 @@ with col1:
         if result.get("INDEX_SELECT"):
             st.write(df.iloc[result.get("INDEX_SELECT")["data"]])
 
-plot = figure(tools="pan, box_zoom, wheel_zoom, lasso_select", width=250, height=250, toolbar_location="right")
+plot = figure(tools="pan, box_zoom, wheel_zoom, lasso_select", width=250, height=250)
 
 
 cds_lasso = ColumnDataSource(df)
