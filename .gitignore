@@ -1,0 +1,3 @@
+# exclude large datafiles
+/data/drem/*
+
