@@ -124,4 +124,4 @@ with col2:
     if result_lasso:
         if result_lasso.get("LASSO_SELECT"):
             st.write(df.iloc[result_lasso.get("LASSO_SELECT")["data"]])
-            st.markdown(get_table_download_link(result_lasso), unsafe_allow_html=True)
+            st.markdown(get_table_download_link(df.iloc[result_lasso.get("LASSO_SELECT")["data"]]), unsafe_allow_html=True)
