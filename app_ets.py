@@ -24,9 +24,16 @@ with row1_2:
     """
     ##
     Examining the EPA Emissions Trading Scheme (ETS) buildings across county Dublin, and their relevant 
-    Select the Lasso Tool to Extract Data from the Interactive Map.
+    metered Carbon Emissions along with their estimated electricity consumption.
+    Select the Lasso Tool from the toolbar on the right of the map to circle desired data and download 
+    it in csv format from the Interactive Map.
     """)
 
+col1, col2 = st.beta_columns([1, 5])
+with col1:
+    st.image('data/codema_logo.png', width=200)
+with col2:
+    st.image('data/seai_logo.jpg', width=200)
 
 # READ IN TOP BUILDINGS DEMANDS
 df = pd.read_csv("data/epa_ets_sites_dublin.csv")

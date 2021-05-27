@@ -26,8 +26,15 @@ with row1_2:
     """
     ##
     Examining the 200 largest energy consumers across county Dublin, as of the open-access Valuation.
-    Office Dataset, crossed with CIBSE TM46 Benchmarks. Select the Lasso Tool to Extract Data from the Interactive Map.
+    Office Dataset, crossed with CIBSE TM46 Benchmarks. Select the Lasso Tool from the toolbar on the 
+    right of the map to circle desired data and download it in csv format from the Interactive Map.
     """)
+
+col1, col2 = st.beta_columns([1, 5])
+with col1:
+    st.image('data/codema_logo.png', width=200)
+with col2:
+    st.image('data/seai_logo.jpg', width=200)
 
 
 # READ IN TOP BUILDINGS DEMANDS
