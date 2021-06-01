@@ -24,7 +24,11 @@ with row1_2:
     st.write(
     """
     ##
-    To be filled in.
+    An interactive web-map to view and download the outputs of the SEAI-funded Dublin Region Energy
+    Masterplan developed by Codema. Additional information available on the modelling methodology
+    upon request. Small Area centroids as of the 2016 Census, are marked on the map here for all of Dublin, 
+    of which they can be  selected using the lasso tool on the right of the map to circle desired data and 
+    downloaded in csv format. 
     """)
 
 col1, col2 = st.beta_columns([1, 5])
@@ -41,23 +45,17 @@ map_data = map_data.to_crs(epsg="3857")
 
 map_data = gpd.GeoDataFrame(map_data) 
 
-def getPolyCoords(row, geom, coord_type):
-    """Returns the coordinates ('x' or 'y') of edges of a Polygon exterior"""
+df = map_data[["GEOGID_left", "T1_1AGETT", "postcodes", "area", "pop-density-ppsqkm", "sa_resi_heat_emissions_TCO2", "sa_comm_elec_emissions_TCO2", "sa_comm_heat_emissions_TCO2", "sa_data_centre_elec_emissions_TCO2", "total_sa_emissions_TCO2", "total_sa_resi_emissions_TCO2", "total_sa_comm_emissions_TCO2", "geometry"]]
 
-    # Parse the exterior of the coordinate
-    exterior = row[geom].exterior
+df["centroid"] = df.centroid
+df["x"] = df["centroid"].x
+df["y"] = df["centroid"].y
 
-    if coord_type == 'x':
-        # Get the x coordinates of the exterior
-        return list( exterior.coords.xy[0] )
-    elif coord_type == 'y':
-        # Get the y coordinates of the exterior
-        return list( exterior.coords.xy[1] )
+df = df[["GEOGID_left", "T1_1AGETT", "postcodes", "area", "pop-density-ppsqkm", "sa_resi_heat_emissions_TCO2", "sa_comm_elec_emissions_TCO2", "sa_comm_heat_emissions_TCO2", "sa_data_centre_elec_emissions_TCO2", "total_sa_emissions_TCO2", "total_sa_resi_emissions_TCO2", "total_sa_comm_emissions_TCO2", "x", "y"]]
 
-map_data['x'] = map_data.apply(getPolyCoords, geom='geometry', coord_type='x', axis=1)
-map_data['y'] = map_data.apply(getPolyCoords, geom='geometry', coord_type='y', axis=1)
+df = df.rename(columns={"GEOGID_left": "small_area_id", "T1_1AGETT": "population", "area": "area_m2"})
 
-df = map_data[["GEOGID_left", "T1_1AGETT", "postcodes", "area", "pop-density-ppsqkm", "sa_resi_heat_emissions_TCO2", "sa_comm_elec_emissions_TCO2", "sa_comm_heat_emissions_TCO2", "sa_data_centre_elec_emissions_TCO2", "total_sa_emissions_TCO2", "total_sa_resi_emissions_TCO2", "total_sa_comm_emissions_TCO2", "x", "y"]]
+df = df.drop_duplicates('small_area_id')
 
 col1, col2 = st.beta_columns(2)
 
@@ -91,7 +89,7 @@ with col1:
          if result.get("INDEX_SELECT"):
              st.write(df.iloc[result.get("INDEX_SELECT")["data"]])
 
-plot = figure(tools="pan, box_zoom, wheel_zoom, lasso_select", width=250, height=250)
+plot = figure(tools="pan, zoom_in, zoom_out, box_zoom, wheel_zoom, lasso_select", width=250, height=250)
 
 
 cds_lasso = ColumnDataSource(df)
