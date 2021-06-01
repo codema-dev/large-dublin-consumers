@@ -120,7 +120,7 @@ def get_table_download_link(df):
 
     return href
 
-plot = figure(x_axis_type="mercator", y_axis_type="mercator", tools="pan, box_zoom, wheel_zoom, lasso_select")
+plot = figure(x_axis_type="mercator", y_axis_type="mercator", tools="pan, zoom_in, zoom_out, box_zoom, wheel_zoom, lasso_select")
 
 plot.xaxis.axis_label = 'longitude'
 plot.yaxis.axis_label = 'latitude'
