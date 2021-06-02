@@ -4,9 +4,10 @@ import geopandas as gpd
 from geopandas import GeoDataFrame
 import pandas as pd
 import streamlit as st
-from shapely.geometry import Polygon
+from shapely.geometry import Polygon, MultiPoint
+import numpy as np
 
-from bokeh.plotting import figure
+from bokeh.plotting import figure, show
 from bokeh.tile_providers import CARTODBPOSITRON, get_provider
 from bokeh.models import ColumnDataSource, CustomJS, tools
 from bokeh.models import TableColumn, WidgetBox
@@ -45,15 +46,19 @@ map_data = map_data.to_crs(epsg="3857")
 
 map_data = gpd.GeoDataFrame(map_data) 
 
+poly = map_data[["geometry"]]
+
 df = map_data[["GEOGID_left", "T1_1AGETT", "postcodes", "area", "pop-density-ppsqkm", "sa_resi_heat_emissions_TCO2", "sa_comm_elec_emissions_TCO2", "sa_comm_heat_emissions_TCO2", "sa_data_centre_elec_emissions_TCO2", "total_sa_emissions_TCO2", "total_sa_resi_emissions_TCO2", "total_sa_comm_emissions_TCO2", "geometry"]]
+
+df = df.rename(columns={"GEOGID_left": "small_area_id", "T1_1AGETT": "population", "area": "area_m2"})
+
+gdf = gpd.GeoDataFrame(poly)
 
 df["centroid"] = df.centroid
 df["x"] = df["centroid"].x
 df["y"] = df["centroid"].y
 
-df = df[["GEOGID_left", "T1_1AGETT", "postcodes", "area", "pop-density-ppsqkm", "sa_resi_heat_emissions_TCO2", "sa_comm_elec_emissions_TCO2", "sa_comm_heat_emissions_TCO2", "sa_data_centre_elec_emissions_TCO2", "total_sa_emissions_TCO2", "total_sa_resi_emissions_TCO2", "total_sa_comm_emissions_TCO2", "x", "y"]]
-
-df = df.rename(columns={"GEOGID_left": "small_area_id", "T1_1AGETT": "population", "area": "area_m2"})
+df = df[["small_area_id", "population", "postcodes", "area_m2", "pop-density-ppsqkm", "sa_resi_heat_emissions_TCO2", "sa_comm_elec_emissions_TCO2", "sa_comm_heat_emissions_TCO2", "sa_data_centre_elec_emissions_TCO2", "total_sa_emissions_TCO2", "total_sa_resi_emissions_TCO2", "total_sa_comm_emissions_TCO2", "x", "y"]]
 
 df = df.drop_duplicates('small_area_id')
 
@@ -122,12 +127,18 @@ def get_table_download_link(df):
 
 plot = figure(x_axis_type="mercator", y_axis_type="mercator", tools="pan, zoom_in, zoom_out, box_zoom, wheel_zoom, lasso_select")
 
+
 plot.xaxis.axis_label = 'longitude'
 plot.yaxis.axis_label = 'latitude'
 
 tile_provider = get_provider(CARTODBPOSITRON)
 
 plot.add_tile(tile_provider)
+
+# Return to this at a later stage to try add SA boundary to bokeh map
+#poly_list = [list(gdf.geometry.exterior[row_id].coords) for row_id in range(gdf.shape[0])]
+#plot.patches(poly_list, color=["firebrick"], alpha=[0.8], line_width=2)
+
 plot.circle("x", "y", fill_alpha=0.5, size=5, source=cds_lasso)
 with col2:
     result_lasso = streamlit_bokeh_events(
